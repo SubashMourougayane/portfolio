@@ -1,0 +1,100 @@
+html, body {
+     margin: 0 auto; padding: 0; overflow-x:hidden;
+} 
+.partMain{
+    height: 100vh;
+    width: 100vw;    
+    /* background-color: violet; */
+    display: flex;
+}
+.oneShadowName{
+    height: 100vh;
+    width: 12vw;
+    /* background-color: chartreuse; */
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-orientation: sideways;
+    text-align:center;
+    text-orientation: sideways;
+    font-size: 200px;
+    font-family: 'Cabin', sans-serif;
+    color: #D3D3D3	;
+    font-weight: bolder;
+}
+.oneMid{
+    height: 100vh;
+    width: 65vw;
+    background-color: brown;
+    
+}
+.navBar{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    font-family: 'Cabin', sans-serif;
+    font-size: 25px;
+    align-items: center;
+    font-weight: 500;
+}
+.navBar>ul{
+    list-style-type: none;   
+    display: flex;    
+    width: 80%;
+    
+}
+.navBar>ul>li{
+    width: 25%;
+    height: 40%;
+    text-align: left;
+}
+
+.navLogo{
+    height: 50%;
+    margin: 3%;
+    
+}
+.midContent{
+    height: 500px;
+    width: 40%;
+    background-color: bisque;
+    margin:15%;
+}
+.myFace{
+    position: absolute;
+    height: 50%;
+    width: 30%;
+    background-color: blue;
+    left: 62.5%;
+    top: 28%;
+    
+    
+}
+.oneRightBlue{
+    height: 100vh;
+    width: 23vw;
+    background-color: lightgreen;
+}
+    
+
+
+.partAbtMe{
+    height: 100vh;
+    width: 100vw;    
+    background-color: green;
+}
+
+.partSpecial{
+    height: 100vh;
+    width: 100vw;    
+    background-color: red;
+}
+.partPortfolio{
+    height: 100vh;
+    width: 100vw;    
+    background-color: yellow;
+}
+.footer{
+    height: 20vh;
+    width: 100vw;    
+    background-color: violet;
+}
